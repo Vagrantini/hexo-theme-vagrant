@@ -1,4 +1,4 @@
-# BlueLake
+# vagrant
 
 [English](README.en.md) | [简体中文](README.md)
 
@@ -6,22 +6,22 @@
 
 - 点击预览[【深色主题】](https://chaooo.github.io/)、[【浅色主题】](https://chaoo.oschina.io/)
 
-[![BlueLake template preview](http://cdn.chaooo.top/hexo/BlueLake.jpg "BlueLake template preview")](https://chaooo.github.io/)
+[vagrant template preview](https://vagrantini.com) 
 
 ## 安装
 
 ### 安装主题和渲染:
 
 ```shell
-$ git clone https://github.com/chaooo/hexo-theme-BlueLake.git themes/BlueLake
+$ git clone https://github.com/Vagrantini/hexo-theme-vagrant.git themes/vagrant
 $ npm install hexo-renderer-jade@0.3.0 --save
 $ npm install hexo-renderer-stylus --save
 ```
 ### 启用
 
-在Hexo配置文件（`hexo/_config.yml`）中把主题设置修改为`BlueLake`。
+在Hexo配置文件（`hexo/_config.yml`）中把主题设置修改为`vagrant`。
 ```  bash
-theme: BlueLake
+theme: vagrant
 ```
 如果你想生成压缩后的css，在（`hexo/_config.yml`）中添加：
 ``` yml
@@ -33,12 +33,12 @@ stylus:
 ### 更新
 
 ``` bash
-cd themes/BlueLake
+cd themes/vagrant
 git pull
 ```
 
 ## 配置
-打开`themes/BlueLake/_config.yml`进行配置。
+打开`themes/vagrant/_config.yml`进行配置。
 
 ``` yml
 ##########################
@@ -324,7 +324,7 @@ jsonContent:
   - 点击注册，页面会出现其中**Client ID**和**Client Secret**在后面的配置中需要用到
 
 2. 配置`主题_config.yml`：
-``` yml 主题_config.yml https://github.com/chaooo/hexo-theme-BlueLake/blob/master/_config.yml themes/BlueLake/_config.yml
+``` yml 主题_config.yml https://github.com/Vagrantini/hexo-theme-vagrant.git/master/_config.yml themes/vagrant/_config.yml
 #Cmments
 comment:
   gitalk:
@@ -341,7 +341,6 @@ comment:
 
 ## Solutions
 - 检查您当前的hexo的根目录，是否包含`source /`，`themes /`等。
-- 如果你在使用这个主题有任何问题，请随时打开一个[issue](https://github.com/chaooo/hexo-theme-BlueLake/issues)，或者给我发邮件[zhenggchaoo@gmail.com](zhenggchaoo@gmail.com)。
 
 ## 浏览器支持
 ![Imgur](http://i.imgur.com/iO9L5ty.png)

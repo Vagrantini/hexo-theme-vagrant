@@ -1,28 +1,26 @@
-# BlueLake
+# vagrant
 
 [English](README.en.md) | [简体中文](README.md)
 
 A simple theme for [Hexo](https://hexo.io/) with great performance on different devices .
 
-- [Preview](https://chaoo.oschina.io/)
-
-[![BlueLake template preview](http://cdn.chaooo.top/hexo/BlueLake.jpg "BlueLake template preview")](https://chaoo.oschina.io/)
+- [Preview](https://vagrantini.com/)
 
 ## Installation
 
 ### Install theme and renderers:
 
 ```shell
-$ git clone https://github.com/chaooo/hexo-theme-BlueLake.git themes/BlueLake
+$ git clone https://github.com/Vagrantini/hexo-theme-vagrant.git themes/vagrant
 $ npm install hexo-renderer-jade@0.3.0 --save
 $ npm install hexo-renderer-stylus --save
 ```
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `BlueLake`.
+Modify `theme` setting in `_config.yml` to `vagrant`.
 ```  bash
-theme: BlueLake
+theme: vagrant
 ```
 If you want to compress css,you can configure this plugin in `hexo/_config.yml`
 ``` yml
@@ -33,13 +31,13 @@ stylus:
 ### Update
 
 ``` bash
-cd themes/BlueLake
+cd themes/vagrant
 git pull
 ```
 
 ## Configuration
 
-`themes/BlueLake/_config.yml`
+`themes/vagrant/_config.yml`
 
 ``` yml
 ##########################
