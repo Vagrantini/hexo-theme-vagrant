@@ -51,16 +51,8 @@ date_formats:
 
 # Extensions
 Plugins:
-  hexo-generator-feed
   hexo-generator-sitemap
   hexo-generator-baidu-sitemap
-
-#Feed Atom
-feed:
-  enable: true
-  type: atom
-  path: atom.xml
-  limit: 20
 
 #sitemap
 sitemap:

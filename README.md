@@ -87,15 +87,8 @@ share_path: share
 
 # Extensions
 Plugins:
-  hexo-generator-feed
   hexo-generator-sitemap
   hexo-generator-baidu-sitemap
-
-#Feed Atom
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
 
 #sitemap
 sitemap:
