@@ -1,12 +1,7 @@
 #footer
   .footer-info
     p
-      if theme.baidusitemap
-        a(href=config.root+"baidusitemap.xml")= __("baidusitemap")
-        |  |  
-      if theme.feed
-        a(href=config.root+"atom.xml")= __("footer_rss")
-        |  |  
+      if theme.about.enable == true
       a(href=config.root+"about/")= __("contact_author")
     if theme.busuanzi == true
       p 本站总访问量：

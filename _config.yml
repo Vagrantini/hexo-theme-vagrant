@@ -57,6 +57,7 @@ Plugins:
 
 #Feed Atom
 feed:
+  enable: true
   type: atom
   path: atom.xml
   limit: 20
@@ -64,8 +65,6 @@ feed:
 #sitemap
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
 
 #Local search
 local_search: true ## Use a javascript-based local search engine, true/false.
@@ -127,6 +126,7 @@ busuanzi: false ## If you want to use Busuanzi page views please set the value t
 
 # About page
 about:
+  enable: true
   photo_url: ## Your photo e.g. http://cdn.chaooo.top/blog/themeauthor.jpg
   items:
   - label: email
