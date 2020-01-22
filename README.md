@@ -91,26 +91,6 @@ mathjax:
   enable: false  #true/false.
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
-#Cmments
-comment:
-  duoshuo: #chaooo ## duoshuo_shortname
-  disqus: ## disqus_shortname
-  livere: ## 来必力(data-uid)
-  uyan: ## 友言(uid)
-  cloudTie: ## 网易云跟帖(productKey)
-  changyan: ## 畅言需在下方配置两个参数，此处不填。
-    appid: ## 畅言(appid)
-    appkey: ##畅言(appkey)
-  gitalk:
-    enable: false ## If you want to use Gitment comment system please set the value to true.
-    owner: ## Your GitHub ID, e.g. username
-    repo: ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
-    client_id: ## GitHub client ID, e.g. 75752dafe7907a897619
-    client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
-    admin: ## Github repo owner and collaborators, only these guys can initialize github issues.
-    language: zh-CN ## Language
-    pagerDirection: last # Comment sorting direction, available values are last and first.
-
 # Analytics
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42025684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
@@ -137,13 +117,6 @@ links:
 - **Static files** - 静态文件目录，以方便CDN使用。
 - **Local search**
 - self_search - 默认本地JS搜索.
-- **Cmments**
-- duoshuo - 若使用[多说评论](http://duoshuo.com)，注册多说后在这填写short_name(用于评论与分享)。
-- disqus - 若使用[Disqus评论](https://disqus.com)，注册Disqus后在这填写short_name。
-- livere- 若使用[来必力评论](https://livere.com)，注册来必力,获得data-uid。
-- uyan - 若使用[友言评论](http://www.uyan.cc/)，注册友言,获得uid。
-- cloudTie - 若使用[网易云跟帖评论](https://gentie.163.com/info.html)，注册网易云跟帖,获得productKey。
-- changyan - 若使用[畅言评论](http://changyan.kuaizhan.com)，注册畅言，获得appid，appkey。
 - **links** - 友情链接。
 - **Miscellaneous**
 - show_category_count - 是否在侧边栏分类中显示类别的数量（true/false）.
@@ -207,7 +180,6 @@ jsonContent:
     content: false
     slug: false
     updated: false
-    comments: false
     link: false
     permalink: false
     excerpt: false
@@ -217,33 +189,6 @@ jsonContent:
 
 #### 语言
 该主题目前有七种语言：简体中文（zh-CN），繁体中文（zh-TW），英语（en），法语（fr-FR），德语（de-DE），韩语 （ko）,西班牙语（es-ES）,欢迎修改主题并翻译成其他语言。
-
-
-
-#### 评论
-目前主题集成六种第三方评论，分别是[多说评论](http://duoshuo.com)、[Disqus评论](https://disqus.com)、[来必力评论](https://livere.com)、[友言评论](http://www.uyan.cc/)、[网易云跟帖评论](https://gentie.163.com/info.html)、[畅言评论](http://changyan.kuaizhan.com)、基于Github Issue的[GITALK](https://gitalk.github.io/)，推荐[gitalk](https://gitalk.github.io/)。
-1. 需要 GitHub Application，如果没有[点击这里申请](https://github.com/settings/applications/new)。
-  - Application name： 应用名称，随意
-  - Homepage URL： 网站URL，对应自己博客地址
-  - Application description ：描述，随意
-  - Authorization callback URL：# 网站URL，博客地址就好
-  - 点击注册，页面会出现其中**Client ID**和**Client Secret**在后面的配置中需要用到
-
-2. 配置`主题_config.yml`：
-``` yml 主题_config.yml https://github.com/Vagrantini/hexo-theme-vagrant.git/master/_config.yml themes/vagrant/_config.yml
-#Cmments
-comment:
-  gitalk:
-    enable: true ## 开启gitalk
-    owner: ## GitHub的用户名
-    repo: ## 此评论存放的GitHub仓库
-    client_id: ## 复制刚才生成的clientID，例如. 75752dafe7907a897619
-    client_secret: ## 复制刚才生成的clientSecret，例如. ec2fb9054972c891289640354993b662f4cccc50
-    admin: ## Github的用户名
-    language: zh-CN ## Language
-    pagerDirection: last # Comment sorting direction, available values are last and first.
-```
-
 
 ## Solutions
 - 检查您当前的hexo的根目录，是否包含`source /`，`themes /`等。

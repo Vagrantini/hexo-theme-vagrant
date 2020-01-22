@@ -90,26 +90,6 @@ mathjax:
   enable: false  #true/false.
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
-#Cmments
-comment:
-  duoshuo: #chaooo ## duoshuo_shortname
-  disqus: ## disqus_shortname
-  livere: ## 来必力(data-uid)
-  uyan: ## 友言(uid)
-  cloudTie: ## 网易云跟帖(productKey)
-  changyan: ## 畅言需在下方配置两个参数，此处不填。
-    appid: ## 畅言(appid)
-    appkey: ##畅言(appkey)
-  gitalk:
-    enable: false ## If you want to use Gitment comment system please set the value to true.
-    owner: ## Your GitHub ID, e.g. username
-    repo: ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
-    client_id: ## GitHub client ID, e.g. 75752dafe7907a897619
-    client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
-    admin: ## Github repo owner and collaborators, only these guys can initialize github issues.
-    language: zh-CN ## Language
-    pagerDirection: last # Comment sorting direction, available values are last and first.
-
 # Analytics
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42025684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
@@ -157,10 +137,6 @@ links:
 - local_search - a javascript-based local search engine, true/false.
 - swiftype - [Swiftype Search](https://swiftype.com) key.
 - tinysou - [Tiny Search](http://tinysou.com) key.
-- **Cmments**
-- duoshuo - [Duoshuo](http://duoshuo.com) shortname(Use for comments and sharing).
-- disqus - [Disqus](https://disqus.com) shortname.
-- **About page** - About page set.
 - **links** - Edit your blogroll here.
 - **Miscellaneous**
 - show_category_count - Show the count of categories in the sidebar widget.
@@ -223,7 +199,6 @@ jsonContent:
     content: false
     slug: false
     updated: false
-    comments: false
     link: false
     permalink: false
     excerpt: false
