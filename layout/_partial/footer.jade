@@ -1,19 +1,8 @@
 #footer
   .footer-info
-    if theme.busuanzi == true
-      p 本站总访问量：
-        i#busuanzi_container_site_pv
-          i#busuanzi_value_site_pv
-        | 次，本站总访客数:
-        i#busuanzi_container_site_uv
-          i#busuanzi_value_site_uv
-        | 人
     p
       span  Copyright &copy;
         a(href=url_for('.'), rel='nofollow')= (config.author || config.title) + '.'
-      if theme.busuanzi == true
-        span  Count by
-          a(href="http://busuanzi.ibruce.info/")  busuanzi.
       span
         a(rel='nofollow', target='_blank', href='http://beian.miit.gov.cn') 粤ICP备17085181号.
       span

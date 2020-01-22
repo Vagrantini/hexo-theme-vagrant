@@ -98,7 +98,6 @@ baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
 # Miscellaneous
 show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
-busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 
 # Friend link
 links:
@@ -121,7 +120,6 @@ links:
 - **Miscellaneous**
 - show_category_count - 是否在侧边栏分类中显示类别的数量（true/false）.
 - widgets_on_small_screens - 小屏幕下侧边栏在底部显示.
-- busuanzi - 用[Busuanzi](http://busuanzi.ibruce.info)来统计网站访问量.
 - google_analytics - [Google Analytics](https://www.google.com/analytics/) tracking ID。
 - baIDu_analytics - [Baidu Analytics](http://tongji.baidu.com) tracking ID。
 

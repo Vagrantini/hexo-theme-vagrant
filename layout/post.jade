@@ -13,11 +13,6 @@ block content
           span
             for category in page.categories.toArray()
               a.category(href=url_for(category.path))= category.name 
-        if theme.busuanzi == true
-          span
-            i#busuanzi_container_page_pv
-              i#busuanzi_value_page_pv
-              i= '' + __('hits')
     .post-content
       != page.content
     if theme.copyright.enable
