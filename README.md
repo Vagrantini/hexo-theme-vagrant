@@ -82,15 +82,6 @@ js: js
 css: css
 share_path: share
 
-# Extensions
-Plugins:
-  hexo-generator-sitemap
-  hexo-generator-baidu-sitemap
-
-#sitemap
-sitemap:
-  path: sitemap.xml
-
 #Local search
 local_search: true ## Use a javascript-based local search engine, true/false.
 
