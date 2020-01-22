@@ -59,9 +59,6 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
 
 # Sidebar
 widgets:
