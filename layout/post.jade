@@ -31,8 +31,6 @@ block content
             a(href=url_for(config.url +'/'+ page.path))= config.url +'/'+ page.path
           p!= __("copyright_notice") + ": " + (theme.copyright.describe ? theme.copyright.describe : __("copyright_details"))
     include _partial/tag
-    .post-share
-      include _partial/share
     include _partial/post_nav
     #comments
       include _partial/comments

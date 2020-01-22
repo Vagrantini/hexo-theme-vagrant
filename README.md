@@ -77,7 +77,6 @@ toc:
 # Static files
 js: js
 css: css
-share_path: share
 
 #Local search
 local_search: true ## Use a javascript-based local search engine, true/false.
@@ -111,20 +110,6 @@ comment:
     admin: ## Github repo owner and collaborators, only these guys can initialize github issues.
     language: zh-CN ## Language
     pagerDirection: last # Comment sorting direction, available values are last and first.
-
-#Share
-share:
-  local_share: true ##本地分享
-  baidu_share: #true ## 百度分享
-  JiaThis_share: ##true ##JiaThis分享
-  duoshuo_share: #true ##true 多说分享必须和多说评论一起使用。
-  addToAny_share: # AddToAny share. Empty list hides. List items are service name at url. For ex: email for '<a href="https://www.addtoany.com/add_to/email?linkurl=...'
-  #  - twitter
-  #  - baidu
-  #  - facebook
-  #  - google_plus
-  #  - linkedin
-  #  - email
 
 # Analytics
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42025684-2
