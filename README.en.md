@@ -58,9 +58,6 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
-  - page: about
-    directory: about/
-    icon: fa-user
   - page: rss
     directory: atom.xml
     icon: fa-rss
@@ -222,48 +219,6 @@ You can control the abstract of a post shown at index, by either filling a `desc
 
 #### Page
 Create folders inlcuding `index.md` in `source` folder to add pages, and add a `layout: page` in `front-matter` of `index.md`.
-
-#### About Page
-If you want to add about page, just create a page:
-``` shell
-$ hexo new page 'about'
-```
-And add `is_about: true` to front-matter:
-```
-title: about
-date: 2017-04-30 00:00:00
-is_about: true
----
-Page content ...
-```
-And set the `about` option in `themes/_config.yml`
-```YAML
-# About page
-about:
-  photo_url: ## Your photo e.g. http://cdn.chaooo.top/hexo/Avatar.jpg
-  items:
-  - label: email
-    icon: fa-email
-    url: ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
-    title: ## Your email e.g.  zhenggchaoo@gmail.com
-  - label: github
-    icon: fa-github
-    url: ## Your github'url e.g.  https://github.com/chaooo
-    title: ## Your github'name e.g.  chaooo
-  - label: weibo
-    icon: fa-weibo
-    url: ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
-    title: ## Your weibo's name e.g.  秋过冬漫长
-  - label: twitter
-    icon: fa-twitter
-    url:
-    title:
-  - label: facebook
-    icon: fa-facebook
-    url:
-    title:
-```
-[Preview the about page demo](http://chaoo.oschina.io/about/)
 
 #### Syntax Highlighting
 Highlighted code showcase is supported, please set the `highlight` option in `hexo/_config.yml` of hexo directory like this:
